@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="calculadora">
+      <p>Constante elástica</p>
+      <table>
+        <tbody>
+          <tr>
+            <td>Peso total (kg):</td>
+            <td><input type="number" id="peso"></td>
+          </tr>
+          <tr>
+            <td>Distribuição de peso dianteira (%):</td>
+            <td><input type="number" id="dist-peso-dianteira"></td>
+          </tr>
+          <tr>
+            <td>Distribuição de peso traseira (%):</td>
+            <td><input type="number" id="dist-peso-traseira"></td>
+          </tr>
+          <tr>
+            <td>Bitola dianteira (mm):</td>
+            <td><input type="number" id="bitola-dianteira"></td>
+          </tr>
+          <tr>
+            <td>Bitola traseira (mm):</td>
+            <td><input type="number" id="bitola-traseira"></td>
+          </tr>
+          <tr>
+            <td>Posição da mola dianteira (mm):</td>
+            <td><input type="number" id="pos-mola-dianteira"></td>
+          </tr>
+          <tr>
+            <td>Posição da mola traseira (mm):</td>
+            <td><input type="number" id="pos-mola-traseira"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" id="calcular-mola">Calcular</button>
+      <p>Resultado</p>
+      <span id="k-mola-dianteira">Mola dianteira:</span>
+      <span id="k-mola-traseira">Mola traseira:</span>
+      <p>Histórico</p>
+      <div class="historico" id="hist-mola"></div>
+    </div>
+    <div class="calculadora">
+      <p>Curso angular</p>
+      <table>
+        <tbody>
+          <tr>
+            <td>Altura do chão na dianteira (mm):</td>
+            <td><input type="number" id="altura-dianteira"></td>
+          </tr>
+          <tr>
+            <td>Altura do chão na traseira (mm):</td>
+            <td><input type="number" id="altura-traseira"></td>
+          </tr>
+          <tr>
+            <td>Braço da suspensão dianteira (mm):</td>
+            <td><input type="number" id="braco-susp-dianteira"></td>
+          </tr>
+          <tr>
+            <td>Braço da suspensão traseira (mm):</td>
+            <td><input type="number" id="braco-susp-traseira"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" id="calcular-angulo">Calcular</button>
+      <p>Resultado</p>
+      <span id="susp-dianteira">Suspensão dianteira:</span>
+      <span id="susp-traseira">Suspensão traseira:</span>
+      <p>Histórico</p>
+      <div class="historico" id="hist-angulo"></div>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+
+</html>
