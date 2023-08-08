@@ -1,4 +1,4 @@
-# Meus-Projetos
+# Calculadora
 Descrição do Projeto:
 
 Este é um projeto que visa desenvolver uma calculadora em Java para determinar a constante elástica de uma mola e a configuração da suspensão de carros de corrida. A calculadora permite aos usuários inserirem os parâmetros relevantes e, em seguida, calcula e exibe os resultados de forma clara e precisa.
