@@ -33,7 +33,7 @@ Tecnologias Utilizadas:
 
 Java: Linguagem de programação para a lógica da calculadora.
 
-CSS: Utilizado para a estilização da interface gráfica da aplicação.
+HTML e CSS: Utilizado para a estilização da interface gráfica da aplicação.
 
 Contribuindo:
 
